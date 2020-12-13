@@ -1,0 +1,20 @@
+
+.row{ 
+    margin: 20px;
+    background-color: rgb(216, 142, 112);
+    display: flex;
+    flex-direction: row;
+} 
+.box {
+    background-color: rgb(255, 255, 255);
+    margin:10px;
+    flex-grow: 1;
+    height: 200px;
+}
+ 
+.bannerimage{
+    background-image: url("https://see.news/wp-content/uploads/2020/12/UK_wildbirds-01-robin.jpg");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
